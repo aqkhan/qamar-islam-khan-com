@@ -12,7 +12,6 @@ export default () => {
             }
         }
     `)
-    console.log('Daekh BC: ', data)
     return(
         <Helmet defaultTitle={data.site.siteMetadata.title}>
             <meta name="author" value="A Q Khan" />

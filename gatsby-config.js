@@ -13,7 +13,8 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
   ],
   siteMetadata: {
     title: `Qamar Islam Khan`

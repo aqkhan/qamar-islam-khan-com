@@ -1,11 +1,12 @@
 import React from 'react';
 
-export default ({ data }) => (
-    <div>
-        <h4>Title</h4>
-        <img src="http://placeimg.com/640/360/any" alt="" />
-        <p>This should rather be a card.</p>
-        <a href="https://www.stevensegallery.com/640/360">Read More ></a>
+export default ({ post }) => (
+    <div className="post-list" key={ post.id }>
+        <h2>{post.frontmatter.title}</h2>
+        <p><small><i>{ post.frontmatter.date }</i></small></p>
+        <img src={ post.frontmatter.img } alt="" />
+        <div className="post-content" dangerouslySetInnerHTML={{__html: post.html}}></div>
+        <button><a href="https://www.stevensegallery.com/640/360">Read More ></a></button>
         <hr />
     </div>
 )
