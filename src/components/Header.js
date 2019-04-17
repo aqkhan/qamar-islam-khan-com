@@ -7,7 +7,7 @@ export default () => (
         <MetaData />
         <div className="columns is-mobile">
             <div className="column">
-                    <h2><Link to="/">Logo here</Link></h2>
+                <h2><Link to="/">Logo here</Link></h2>
             </div>
             <div className="column" style={{float: 'right'}}>
                 <ul style={{listStyle: 'none', display: 'inline-block'}}>
