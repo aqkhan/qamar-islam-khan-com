@@ -1,7 +1,9 @@
+
 .column li {
     list-style: none;
     display: inline;
     margin-right: 1rem;
+    margin-bottom: 0;
 }
 
 .column h2{
@@ -22,6 +24,40 @@
     color: white ;
 }
 
+.dropdown-cont{   
+    font-family: "Montserrat";
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: 700;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-cont1{   
+    font-family: "Montserrat";
+    align-items: baseline;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown-cont1 a{
+    color: white;
+    text-shadow: unset;
+}
+.dropdown-cont1 a:hover{
+    color: #b1b1b1;
+    text-shadow: unset;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -30,25 +66,125 @@
   .dropdown-list {
     opacity: 0;
     position: absolute;
-    background-color: rgb(131, 131, 132);
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px #eee;
     min-width: 160px;
-    padding: 23px 16px 0px 16px;
+    padding: 23px 60px 23px 20px;
     z-index: 1;
-    top: 8px;
+    top: 8;
     left: -46px;
     height: 150px;
   }
 
+  .dropdown-list li{
+      font-size: 13px;
+      font-weight: 700;
+  }
 
   .dropdown:hover .dropdown-list {
     opacity: 1;
   }
-  .dropdown-cont{
-      min-height: 70px;
-  }
+
   .dropdown-ul{
-    padding-top: 21px;
+    padding-top: 15px;
+    position: relative;
+    margin: 0;
+
+  }
+  .dropdown-ul1{
+    padding-top: 0;
+    margin-left: 3rem;
   }
   a{
       background-image: none;
   }
+  .header-icons{
+      color: #fff;
+      margin-right: 3rem;
+  }
+  .login-button:hover{
+    color: #b1b1b1;
+  }
+  .login-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+    max-height: 32px; 
+  }
+  .right-nav-butt{
+    margin-right: 2rem;
+  }
+  .date-container :hover{
+    color: #b1b1b1;
+  }
+  .date-container{
+      display: flex;
+      margin-left: 2rem;
+  }
+  .date-cont-p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+  }
+  .date-cont-p p{
+      margin: 0;
+  }
+  .date-container h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #fff;
+}
+.header-icons .fa{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+.dropdown .fa{
+    margin-left: 5px;
+}
+ .col-1 link{
+    color: rgba(61,61,61,.69) !important;
+}
+ .col link{
+    color: #505050!important;
+
+}
+ .col a{
+    color: #505050!important;
+
+}
+.col-1 a{
+    color: rgba(61,61,61,.69) !important;
+}
+.right-nav-hr{
+    background: #4d4e50ed;
+    width: 1px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+}
+.logo-bottom-line{
+    background: #f1f1f1;
+    width: 91%;
+    margin-left: 3rem;
+}
