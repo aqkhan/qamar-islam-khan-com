@@ -24,7 +24,7 @@ export default () => (
              <a><i className="fa fa-pinterest"></i></a>
              </div>
              <div className="right-nav-butt">
-                <button class="login-button">LOG IN</button>
+                <button className="login-button">LOG IN</button>
              </div>
              <hr className="right-nav-hr"></hr>
              <div className="date-container">
@@ -39,11 +39,10 @@ export default () => (
          <div className="column">
              <h2><Link to="/">Logo here</Link></h2>
          </div> 
-         <hr className="logo-bottom-line"></hr>
           <div className="column dropdown-cont" >
              <ul className="container dropdown-ul" style={{listStyle: 'none', marginBottom: 'unset'}}>
                  <li className="dropdown nav-below col"><Link to="/about">HOME</Link>
-                 <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                 <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
                      <ul className="dropdown-list" style={{listStyle: 'none'}}>
                          <li><a href="#"> Alpha 1 </a></li>
                          <li><a href="#"> Alpha 2 </a></li>
@@ -52,7 +51,7 @@ export default () => (
                      </ul>
                  </li>
                  <li className="dropdown nav-below col-1"><Link to="/about">FEATURES</Link>
-                 <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                 <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
                      <ul className="dropdown-list" style={{listStyle: 'none'}}>
                          <li><a href="#"> Alpha 1 </a></li>
                          <li><a href="#"> Alpha 2 </a></li>
@@ -61,7 +60,7 @@ export default () => (
                      </ul>
                  </li>
                  <li className="dropdown nav-below col-1"><Link to="/about">BLOG STYLES</Link>
-                 <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                 <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
                      <ul className="dropdown-list" style={{listStyle: 'none'}}>
                          <li><a href="#"> Alpha 1 </a></li>
                          <li><a href="#"> Alpha 2 </a></li>
@@ -70,7 +69,7 @@ export default () => (
                      </ul>
                  </li>
                  <li className="dropdown nav-below col-1"><Link to="/about">MEGA MENU</Link>
-                 <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                 <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
                      <ul className="dropdown-list" style={{listStyle: 'none'}}>
                          <li><a href="#"> Alpha 1 </a></li>
                          <li><a href="#"> Alpha 2 </a></li>
@@ -79,7 +78,7 @@ export default () => (
                      </ul>
                  </li>
                  <li className="dropdown nav-below col-1"><Link to="/about">SHOP</Link>
-                 <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                 <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
                      <ul className="dropdown-list" style={{listStyle: 'none'}}>
                          <li><a href="#"> Alpha 1 </a></li>
                          <li><a href="#"> Alpha 2 </a></li>
@@ -89,6 +88,12 @@ export default () => (
                  </li>
              </ul>
          </div> 
+         <div className="container style-and-line">
+             <h1 className="style-heading">
+                 Style & Design
+             </h1>
+             <hr className="style-line"></hr>
+         </div>
         </div>
     </React.Fragment>
 )
